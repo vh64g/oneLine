@@ -1,0 +1,2 @@
+
+while True: print(num:=int(input("[isPrime]Number?: ")), e:="is a prime", div:=list(), end="\r") if (x:=input("[isPrime]option?: "))=="n" else exec('for i in range(2, num+1): print(f"Final Solution: {num} {e}div by: {div}") if i==num else print(e:="is not a prime ", div.append(i), end="\\r") if num%i==0 else print("", end="")') if x=="calc" else exit() if x.lower() in ["exit", "stop", "e", "esc"] else print("cmd not found")

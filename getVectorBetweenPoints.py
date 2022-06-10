@@ -1,0 +1,2 @@
+
+while True: print(OA:=(int(input("[GVBP]VecA X?: ")), int(input("[GVBP]VecA Y?: ")), int(input("[GVBP]VecA Z?: "))), OB:=(int(input("[GVBP]VecB X?: ")), int(input("[GVBP]VecA B?: ")), int(input("[GVBP]VecB Z?: "))), end="\r") if (inp:=input("[GVBP]option?: ")).lower()=="s" else print(VecAB:=(OB[0]-OA[0], OB[1]-OA[1], OB[2]-OA[2])) if inp.lower()=="calc" else exit() if inp.lower() in ["exit", "stop", "e", "esc"] else print("cmd not found")
